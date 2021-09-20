@@ -1,0 +1,42 @@
+.links {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.links span {
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  color: blue;
+  border-radius: 100vh;
+}
+
+.bubble {
+  position: absolute;
+  width: 100px;
+  top: 60px;
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  right: 10px;
+  border-radius: 100vh;
+}
+
+.bubble-remove {
+  display: none;
+}
